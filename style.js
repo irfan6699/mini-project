@@ -21,4 +21,4 @@ changes.forEach(change => {
 const directTra=document.getElementById('tra');
 directTra.addEventListener('click',function(){
     window.location.href="traditional.html";
-})
+});
