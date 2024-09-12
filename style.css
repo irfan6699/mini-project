@@ -1,0 +1,227 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-color:#556B2F;
+}
+
+.navbar1{
+    height: 52;
+    width: 100%;
+    display: flex;
+    background-color: #F5F5DC;
+    color: #556B2F;
+    border-bottom: 1px solid black;
+    
+}
+.search{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width: 500px;
+    padding: 5px;
+    border: none;
+    font-size: larger;
+}
+.logo{
+    width: 75px;
+    height: 65px;
+    background-color: bisque;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 12px;
+    color: aqua;
+    margin-right: 30px;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    border: 2px solid white;
+}
+.type,.corner-part{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+span:hover{
+    border-bottom: 3px solid rgb(25, 48, 25) ;
+}
+span{
+    padding: 7px;
+    margin-right: 5px;
+}
+.search{
+    width: 400px;
+}
+.cart{
+width: 40px;
+height: 30px;
+margin-left: 30px;
+}
+.navbar2{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: content;
+    background-color: #8D6B4C;
+    color: #F5F5DC;
+}
+.navbar2 span{
+    font-weight: 800;
+    font-size: large;
+ 
+    
+}
+.row1,.row2,.row3,.row4{
+    margin: 20px;
+    width:100%;
+    height: 300px;
+    display: flex;
+    
+    
+}
+.row3,.row4{
+    justify-content: space-evenly;
+}
+.stories{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F0F0E1;
+}
+.stories1{
+width: 9%;
+height: 70%;
+margin-left: 3%;
+border-radius: 50%;
+background-color: #A9BA9D;
+
+
+}
+.in img{
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+}
+.in button{
+    width: 50px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 20px;
+    margin-right: 7px;
+    background-color: #A9BA9D;
+    border: none;
+
+}
+.stories1:hover{
+    border: 3px solid #556B2F;
+}
+.box{
+    width: 20%;
+    font-weight: bold;
+    background-color:#f1f1d4 ;
+    margin:10px;  
+    justify-content: left; 
+}
+.row13,.row14{
+    width:239.33px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.in{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#boximg,#boximg2,#boximg3,#boximg4,#diwali,#holi,#eid,#christmas,#acc1,#acc2,#acc3,#acc4{
+    background-image: url(onam.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+    height: 80%;
+    width: 239px;  
+}
+
+#boximg2{
+    background-image: url(pongal.jpg);
+}
+#boximg3{
+    background-image: url(jan.jpg);
+}
+#boximg4{
+    background-image: url(gc.jpeg.jpg);
+}
+
+#diwali{
+    background-image: url(DIWALI.jpeg);
+   
+}
+#holi{
+    background-image: url(HOLI.jpeg.jpg);
+    
+}
+#eid{
+    background-image: url(EID.jpeg.jpg);
+   
+}
+#christmas{
+    background-image: url(CHRISTMAS.jpeg.jpg);
+    
+}
+/*yeh naya add kiya hu*/
+#acc1{ background-image: url(acc1.jpg);
+     }
+#acc2{ background-image: url(acc2.jpg);
+     }
+#acc3{  background-image: url(acc3.jpeg.jpg);
+      }
+#acc4{background-image: url(acc4.jpeg.jpg);
+      }
+
+
+.slider{
+    margin:10px;
+    height: 600px;
+    background-color: white;
+    width: 60%;
+    background-image: url(jwellery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+}
+.stories button{
+    border: none;
+    align-items: flex-end
+}
+.slider p{
+    margin-top: 500px;
+    color: white;
+    text-align: center;
+    justify-content: end;
+}
+h2{
+    margin: 30px;
+}
+.class41,.class42,.class43,.class44{
+    width: 20%;
+    font-weight: bold;
+    background-color:#f1f1d4 ;
+    margin:10px; 
+}
+/*YEH ADDD KIYA HU*/
+.shop-traditional{
+    color: beige;
+}
