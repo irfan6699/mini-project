@@ -22,3 +22,7 @@ const directTra=document.getElementById('tra');
 directTra.addEventListener('click',function(){
     window.location.href="traditional.html";
 });
+const loginpg=document.querySelector(`.login`);
+loginpg.addEventListener('click',function(){
+    window.location.href="login.html";
+});
